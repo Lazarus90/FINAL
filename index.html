@@ -18,9 +18,7 @@ for($i=0;$i<count($lineas);$i++)
     }
 }
 if($correcto==true){
-    //echo "El usuario ha ingresado correctamente!";
     header('Location: administrador/home.php');
-    //echo("<script>location.href = 'index.HTML".ADMIN_URL."/index.HTML?msg=$msg';</script>");
 }else{
     echo '<script>alert("Usuario NO Encontrado");
     if( ! ("autofocus" in document.createElement( "input" ) ) ){
